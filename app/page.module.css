@@ -74,8 +74,6 @@
   border: 2px solid;
   color: #0a56f1;
   height: 45px;
-  top: 1008px;
-  left: 87px;
   border-radius: 25px;
 }
 
@@ -278,5 +276,14 @@
     background-color: #ffffff;
     border-radius: 8px;
     height: auto;
+  }
+  .nav{
+    height: 10vh;
+  }
+  .top_main{
+    margin-top: 10vh;
+  }
+  .mid_heading{
+    margin-bottom: 22vh;
   }
 }

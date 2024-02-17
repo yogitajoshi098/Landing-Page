@@ -45,9 +45,9 @@ export default function Home() {
 
   return (
     <body>
-      {windowWidth <= 600 ? <Image src={Hamburger} width={45} height={45}/> : <Navbar /> }
+      {windowWidth <= 600 ? <div className={styles.nav}> <Image src={Hamburger} width={45} height={45}/></div> : <Navbar /> }
       
-       <main style={{marginBottom:"50px"}}> 
+       <main className={styles.top_main}> 
         <div className={styles.main}>
           <MidSection
             title="Diversifying the Designs of Digital World"
