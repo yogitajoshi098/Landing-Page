@@ -1,4 +1,4 @@
-/* Navbar.module.css */
+
 
 .Navbar {
     background: linear-gradient(to right, #9ab5ea,#f7c8ef);
@@ -35,11 +35,7 @@
   .list li {
     margin-right: 20px;
   }
-  /* .list li a:active{
-    border-radius: 50px;
-    background-color: #ffffff;
-    text-decoration: underline;
-  } */
+ 
   
   .list a {
     text-decoration: none;
@@ -50,7 +46,7 @@
   }
   
   .list a:hover {
-    color: #ff7e5f; /* Change the color to your preferred hover color */
+    color: #ff7e5f; 
   }
 
  

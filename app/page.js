@@ -25,19 +25,19 @@ export default function Home() {
 
 
   useEffect(() => {
-    // Function to update window width
+    
     const updateWindowWidth = () => {
       console.log(windowWidth,"window...");
       setWindowWidth(window.innerWidth);
     };
 
-    // Initial window width
+   
     updateWindowWidth();
 
-    // Event listener for window resize
+   
     window.addEventListener('resize', updateWindowWidth);
 
-    // Cleanup event listener on component unmount
+    
     return () => {
       window.removeEventListener('resize', updateWindowWidth);
     };
