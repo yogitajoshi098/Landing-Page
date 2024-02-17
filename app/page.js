@@ -15,7 +15,7 @@ import Group5 from "../public/Group5.png";
 import Cards from "./components/Cards";
 import Pointer from "../public/Pointer.png";
 import Card2 from "./components/Card2";
-import { RxHamburgerMenu } from "react-icons/rx";
+import Hamburger from "../public/hamburger.png"
 import { useEffect, useState } from "react";
 
 
@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     <body>
-      {windowWidth <= 600 ? <RxHamburgerMenu size={30}/> : <Navbar /> }
+      {windowWidth <= 600 ? <Image src={Hamburger} width={45} height={45}/> : <Navbar /> }
       
        <main style={{marginBottom:"50px"}}> 
         <div className={styles.main}>
