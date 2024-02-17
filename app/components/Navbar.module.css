@@ -1,0 +1,59 @@
+/* Navbar.module.css */
+
+.Navbar {
+    background: linear-gradient(to right, #9ab5ea,#f7c8ef);
+    padding: 10px;
+    box-shadow: 0 4px 10px 0 rgba(101, 101, 101, 0.25);
+    border-radius: 50px;
+    width: 1000px;
+    height: 65px; 
+    margin-left: 5px;
+  }
+ 
+  .outer{
+    background-color: white;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 3;
+    justify-content: space-between;
+  }
+  .rect{
+    margin : 12px;
+
+  }
+  
+  .list {
+    list-style: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .list li {
+    margin-right: 20px;
+  }
+  /* .list li a:active{
+    border-radius: 50px;
+    background-color: #ffffff;
+    text-decoration: underline;
+  } */
+  
+  .list a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .list a:hover {
+    color: #ff7e5f; /* Change the color to your preferred hover color */
+  }
+
+ 
+  
+  
+  

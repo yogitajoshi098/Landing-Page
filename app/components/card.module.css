@@ -1,0 +1,89 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  top: 2863px;
+  left: 80px;
+  border-radius: 25px;
+  border: linear-gradient(180deg, #0a56f1 0%, #e68f50 100%),
+    linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0) 50%);
+
+  background-color: #ffffff;
+
+  /* border-image-source: linear-gradient(180deg, #0A56F1 0%, #E68F50 100%); */
+}
+
+.card_div {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.card_div h1 {
+  font-family: Outfit;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 32px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #0a56f1;
+}
+.card p {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #36454f;
+}
+
+.card_comp {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  margin-right: 250px;
+  margin-top: 55px;
+}
+
+.card_2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  height: 400px;
+  top: 2863px;
+  left: 80px;
+  border-radius: 25px;
+  border: linear-gradient(180deg, #0a56f1 0%, #e68f50 100%),
+    linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0) 50%);
+
+  background-color: #ffffff;
+}
+
+.card_2 p {
+  text-align: center;
+  font-weight: 400;
+  font-family: Outfit;
+}
+.card_title {
+  margin: 7px;
+  font-family: Outfit;
+}
+
+.card_title h1 {
+  text-align: center;
+  font-weight: 700;
+  color: #e68f50;
+  font-family: Outfit;
+}
