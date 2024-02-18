@@ -3,8 +3,8 @@
   border-radius: 5px;
   display: flex;
   justify-content: space-between;
-  padding-left: 8px;
-  padding-right: 8px;
+  /* padding-left: 8px;
+  padding-right: 8px; */
 }
 
 .right {
@@ -59,7 +59,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
- 
 }
 
 .mid p {
@@ -73,9 +72,6 @@
   border: 2px solid;
   color: #0a56f1;
   border-radius: 25px;
-  margin-left: 20px;
-  margin-right: 20px;
-  
 }
 
 .mid_heading {
@@ -173,12 +169,12 @@
 .left {
   display: flex;
   flex-direction: column;
- 
 }
 
 .mid .mid_button {
   display: flex;
   flex-wrap: wrap;
+  gap: 40px;
 }
 .mid_button button {
   padding-top: 4px;
@@ -285,5 +281,27 @@
   }
   .nav {
     height: 10vh;
+  }
+
+  .left {
+    /* padding-left: 20px; */
+    padding-right: 20px;
+  }
+
+  .mid .mid_button {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 80%;
+
+  }
+  .mid_button button {
+     padding: 8px 8px;
+  }
+  .mid p {
+    font-size: 14px;
+    text-align: center;
+    text-wrap: wrap ;
+    width: 50%;
   }
 }
