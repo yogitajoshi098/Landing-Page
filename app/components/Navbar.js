@@ -18,28 +18,30 @@ const Navbar = () => {
           />
           <div className={styles.Navbar}>
             <ul className={styles.list}>
+              
               <li>
+                Home
                
-                <Link href="/">Home</Link>
+                
               
               </li>
               <li>
-                <Link href="/about">About Us</Link>
+                About Us
               </li>
               <li>
-                <Link href="/contact">Work</Link>
+                Work
               </li>
               <li>
-                <Link href="/contact">Services</Link>
+               Services
               </li>
               <li>
-                <Link href="/contact">Clients</Link>
+               Clients
               </li>
               <li>
-                <Link href="/contact">Team</Link>
+               Team
               </li>
               <li>
-                <Link href="/contact">Contact Us</Link>
+               Contact Us
               </li>
             </ul>
           </div>
