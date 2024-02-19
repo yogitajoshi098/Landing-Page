@@ -119,23 +119,28 @@ Operating from our registered office in Agartala Sadar, Tripura (W), our company
         <div className={styles.top_div}>
           <div className={styles.section_div}>
             <div>
-              <Image src={Group1} />
+              <div className={styles.image_div}> <Image src={Group1}/></div>
+             
               User-Centric Approach
             </div>
             <div>
-              <Image src={Group2} />
+              <div className={styles.image_div}> <Image src={Group2} /></div>
+             
               Customer Satisfaction
             </div>
             <div>
-              <Image src={Group3} />
+              <div className={styles.image_div}><Image src={Group3} /></div>
+              
               Integrating Feedback
             </div>
             <div>
-              <Image src={Group4} />
+              <div className={styles.image_div}><Image src={Group4} /></div>
+              
               High Quality Products
             </div>
             <div>
-              <Image src={Group5} />
+              <div className={styles.image_div}> <Image src={Group5} /></div>
+             
               On-Time Product Delivery
             </div>
           </div>

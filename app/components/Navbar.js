@@ -1,9 +1,9 @@
 // Navbar.js
 import styles from "./Navbar.module.css";
-import Link from "next/link";
+
 import Rectangle from "../../public/Rectangle.png";
 import Image from "next/image";
-import RectangleBg from '../../public/RectangleBg.png'
+
 
 const Navbar = () => {
   return (
