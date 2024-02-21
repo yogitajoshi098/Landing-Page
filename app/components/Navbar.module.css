@@ -1,9 +1,10 @@
 .Navbar {
   background: linear-gradient(to right, #9ab5ea, #f7c8ef);
-  padding: 5px;
+  padding: 5px 5px;
+  
   box-shadow: 0 4px 10px 0 rgba(101, 101, 101, 0.25);
   border-radius: 50px;
-  width: 1000px;
+  width: 1050px;
   height: 65px;
   margin-left: 5px;
 }
@@ -23,7 +24,7 @@
 .list {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .list li {

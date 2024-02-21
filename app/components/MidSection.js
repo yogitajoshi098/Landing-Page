@@ -15,14 +15,21 @@ export default function MidSection({title,topPara,bottomPara,buttonTitle,buttonI
               <br></br>
               {bottomPara}
             </p>
-            <button className={styles.btn}>
+           {buttonTitle === "Book a Call" ?  <button className={styles.btn}>
               <span className={styles.text}>
                 <button className={styles.tele}>
                   <Image src={buttonImg} />
                 </button>{" "}
               </span>
              {buttonTitle}
-            </button>
+            </button> :  <button className={styles.btn}>
+              <span className={styles.text}>
+                <button className={styles.coin}>
+                  <Image src={buttonImg} />
+                </button>{" "}
+              </span>
+             {buttonTitle}
+            </button>}
           </div>
           <div className={styles.right}>
             <Image src={MobileImage} className={styles.MobileImage} />

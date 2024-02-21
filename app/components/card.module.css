@@ -46,8 +46,11 @@
   gap: 25px;
   justify-content: center;
   align-items: center;
-  padding: 50px 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
+
+
 
 .arrow {
   margin-right: 250px;
@@ -66,12 +69,27 @@
     linear-gradient(135deg, #ffffff 0%, rgba(255, 255, 255, 0) 50%);
 
   background-color: #ffffff;
+  padding: 3px 10px;
 }
 
 .card_2 p {
-  text-align: center;
-  font-weight: 400;
   font-family: Outfit;
+font-size: 20px;
+font-weight: 500;
+line-height: 25px;
+letter-spacing: 0.03em;
+text-align: center;
+color: #36454F;
+}
+
+.card_2 h1 {
+  font-family: Outfit;
+  font-size: 22px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  text-align: center;
+color: #0a56f1;  
 }
 .card_title {
   margin: 7px;

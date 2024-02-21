@@ -104,7 +104,7 @@ Operating from our registered office in Agartala Sadar, Tripura (W), our company
           />
         </div>
         <div className={styles.section2}>
-          <h1>Why Choose Us?</h1>
+          <h1>Why Choose Us ?</h1>
           <p>
             We excel with reliability, innovation and customer-centric approach
             for our quality products.
@@ -118,7 +118,7 @@ Operating from our registered office in Agartala Sadar, Tripura (W), our company
       <section>
         <div className={styles.top_div}>
           <div className={styles.section_div}>
-            <div>
+            <div >
               <div className={styles.image_div}> <Image src={Group1}/></div>
              
               User-Centric Approach
